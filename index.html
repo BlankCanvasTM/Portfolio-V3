@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/bootstrap-5.0.2-dist//css/bootstrap.css">
     <title>Premice Magbetha - Programming Portfolio</title>
+    <style>
+        section{
+            padding: 60px 0;
+        }
+    </style>
 </head>
 <body class="bg-dark"> 
     <div class="container-fluid">
@@ -32,13 +37,13 @@
             <div class="collapse navbar-collapse" id="toggleMobileMenu">
                 <ul class="navbar-nav ms-auto text-center">
                     <li>
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link active" href="#">Home</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="#">Main Projects</a>
+                        <a class="nav-link" href="#">Recent Projects</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="#">Side Projects</a>
+                        <a class="nav-link" href="sideProjects.html">Side Projects</a>
                     </li>
                     <li>
                         <a class="nav-link" href="#">Resume</a>
@@ -56,6 +61,43 @@
         </div>
         
     </nav>
+
+    <section>
+        <div class="container-md bg-secondary border border-2 border-white">
+            <h1>
+                <div class="display-1">Hi there!</div>
+            </h1>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="lead py-4">My name is Premice. (Software developer, hard worker, and video game enthusiast.) I like bulding things people use. It's amazing to type up some code, crystalise your knowledge into executable form and  then have thousands of people are use it. My interest in software development began when I made my first game. The emotions that games were able to invoke in me as a young child and even now as an adult really stuck with me for life and inspired me to want to create those same kinds of feelings. That is why I decided to turn my passion into a career. Creating apps and games that make some sort of difference in people's lives, whether it be through entertainment or convenience. With that being said this is my portfolio, here you can view my <a href="#" class="text-warning text-decoration-none">resume</a>, a few of my <a href="#" class="text-warning text-decoration-none">recent projects</a>, and some fun <a href="#" class="text-warning text-decoration-none">side projects</a> I do in my free time.</p>
+                </div>
+
+                <div class="col-lg-6">
+                    <img src="images/OMT1.png" class="img-fluid" id="image">
+                <script type="text/javascript">
+                    let image = document.getElementById('image');
+                    let images = ["/images/OMT1.png", "/images/OMT2.png", "/images/SNA1.png", "/images/screenshot_2.png"
+                ,"/images/screenshot_59.png", "/images/dead.gif"]
+                    setInterval(function(){
+                        let random = Math.floor(Math.random() * 6)
+                        image.src = images[random];
+                    }, 2000);
+                </script>
+                </div>
+
+            </div>
+
+            <p class="lead py-3 text-center">I’d love to chat about job opportunities, projects I’ve worked on, the video game industry or whatever is on your mind.</p>
+            
+
+        </div>
+
+
+        <div class="container-md py-1 bg-light text-center">
+            <h6>Copyright © 2023 Premice Magbetha. All Rights Reserved.</h6>
+        </div>
+    </section>
           
     
     
