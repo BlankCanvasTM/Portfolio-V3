@@ -3,5 +3,6 @@
         display: block;
         width: 80%;
         height: calc(.5625 * 80vw);
+        margin: 1em auto;
     }
 }
