@@ -1,5 +1,6 @@
 @media all and (max-width: 500px){
-    body{
-        color: blue;
+    video{
+
+        width: 320px;
     }
 }
