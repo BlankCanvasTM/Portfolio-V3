@@ -5,72 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/bootstrap-5.0.2-dist//css/bootstrap.css">
+    <link rel="stylesheet" href="custom.css">
+    
     <title>Premice Magbetha - Programming Portfolio</title>
-    <style>
-        section{
-            padding: 60px 0;
-        }
-    </style>
 </head>
+
 <body class="bg-dark"> 
-    <div class="container-fluid">
 
-    </div>   
-    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a href="index.html" class="navbar-brand">
-                <span class="fw-bold">Premice Magbetha <br>Software Developer Portfolio</span>
-            </a>
-            
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#toggleMobileMenu"
-                aria-controls="toggleMobileMenu"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="toggleMobileMenu">
-                <ul class="navbar-nav ms-auto text-center">
-                    
-                    <li>
-                        <a class="nav-link active" href="#">Home</a>
-                    </li>
-                    
-                    <li>
-                        <a class="nav-link" href="#">Recent Projects</a>
-                    </li>
-                    
-                    <li>
-                        <a class="nav-link" href="sideProjects.html">Side Projects</a>
-                    </li>
-                    
-                    <!--<li>
-                        <a class="nav-link" href="resume.html">Resume</a>
-                    </li>-->
-                    
-                    <li>
-                        <a class="nav-link" href="https://github.com/BlankCanvasTM" target="_blank">Github</a>
-                    </li>
-                    
-                   <!--<li>
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>-->
+    <section class="fadeIn">
+        
+        <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">
+                    <span class="fw-bold">Premice Magbetha <br>Software Developer Portfolio</span>
+                </a>
                 
-                </ul>
-
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#toggleMobileMenu"
+                    aria-controls="toggleMobileMenu"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                    <ul class="navbar-nav ms-auto text-center">
+                        
+                        <li>
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        
+                        <li>
+                            <a class="nav-link" href="#">Recent Projects</a>
+                        </li>
+                        
+                        <li>
+                            <a class="nav-link" href="sideProjects.html">Side Projects</a>
+                        </li>
+                        
+                        <!--<li>
+                            <a class="nav-link" href="resume.html">Resume</a>
+                        </li>-->
+                        
+                        <li>
+                            <a class="nav-link" href="https://github.com/BlankCanvasTM" target="_blank">Github</a>
+                        </li>
+                        
+                       <!--<li>
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>-->
+                    
+                    </ul>
+    
+                </div>
+                
             </div>
             
-        </div>
-        
-    </nav>
+        </nav>
+
+    </section>
+    
+    
 
     <section>
-        <div class="container-md bg-secondary border border-2 border-white">
+        <div class="container-md bg-secondary border border-2 border-white fadeIn">
             <h1>
                 <div class="display-1">Hi there!</div>
             </h1>
@@ -128,18 +130,6 @@
                         </button>
                       
                     </div>
-                    
-                      <!--<img src="images/OMT1.png" class="img-fluid " id="image">
-                
-                <script type="text/javascript">
-                    let image = document.getElementById('image');
-                    let images = ["/images/OMT1.png", "/images/OMT2.png", "/images/SNA1.png", "/images/screenshot_2.png"
-                ,"/images/Burgers.png", "/images/dead.gif"]
-                    setInterval(function(){
-                        let random = Math.floor(Math.random() * 5)
-                        image.src = images[random];
-                    }, 2000);
-                </script>-->
                 
                 </div>
 
@@ -151,7 +141,7 @@
         </div>
 
 
-        <div class="container-md py-1 bg-light text-center">
+        <div class="container-md py-1 bg-light text-center fadeIn">
             <h6>Copyright © 2023 Premice Magbetha. All Rights Reserved.</h6>
         </div>
     </section>
@@ -159,5 +149,6 @@
     
     
     <script src="/bootstrap-5.0.2-dist//js/bootstrap.js"></script>
+    <script src="/app.js"></script>
 </body>
 </html>
