@@ -1,0 +1,7 @@
+@media all and (max-width: 500px){
+    video{
+        display: block;
+        width: 80%;
+        height: calc(.5625 * 80vw);
+    }
+}
