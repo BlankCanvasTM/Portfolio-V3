@@ -25,6 +25,3 @@ const hiddenElements = document.querySelectorAll('.hidden')
 hiddenElements.forEach((el) => observer.observe(el));
 
 
-
-const fadingElements = document.querySelectorAll('.fadeIn')
-fadingElements.forEach((el) => observer2.observe(el));
